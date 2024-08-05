@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+
+<style>
+  
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+</style>
+<body>
+  
+
+<!-- Header -->
+
+<div class="header">
+  
+  
+  <h1>photo gallery</h1>
+
+  <button class="btn" onclick="one()">1</button>
+  <button class="btn active" onclick="two()">2</button>
+  <button class="btn" onclick="four()">4</button>
+  
+  
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="00.jpg" style="width:100%">
+    <img src="01.jpg" style="width:100%">
+    <img src="02.jpg" style="width:100%">
+    <img src="03.jpg" style="width:100%">
+    <img src="04.jpg" style="width:100%">
+    <img src="05.jpg" style="width:100%">
+    <img src="06.jpg" style="width:100%">
+    <img src="26.jpg"   style="width:100%">
+    <img src="27.jpg"   style="width:100%">
+    <img src="28.jpg"   style="width:100%">
+    <img src="29.jpg"   style="width:100%">
+    <img src="30.jpg"   style="width:100%">
+    <img src="31.jpg"   style="width:100%">
+    <img src="32.jpg"   style="width:100%">
+    <img src="33.jpg"   style="width:100%">
+    <img src="34.jpg"   style="width:100%">
+    <img src="35.jpg"   style="width:100%">
+    <img src="36.jpg"   style="width:100%">
+    <img src="37.jpg"   style="width:100%">
+    <img src="38.jpg"   style="width:100%">
+  </div>
+  <div class="column">
+    <img src="07.jpg" style="width:100%">
+    <img src="08.jpg" style="width:100%">
+    <img src="09.jpg" style="width:100%">
+    <img src="10.jpg" style="width:100%">
+    <img src="11.jpg" style="width:100%">
+    <img src="12.jpg" style="width:100%">
+    <img src="39.jpg"   style="width:100%">
+    <img src="40.jpg"   style="width:100%">
+    <img src="41.jpg"   style="width:100%">
+    <img src="42.jpg"   style="width:100%">
+    <img src="43.jpg"   style="width:100%">
+    <img src="44.jpg"   style="width:100%">
+    <img src="45.jpg"   style="width:100%">
+    <img src="46.jpg"   style="width:100%">
+    <img src="47.jpg"   style="width:100%">
+    <img src="48.jpg"   style="width:100%">
+    <img src="49.jpg"   style="width:100%">
+    <img src="50.jpg"   style="width:100%">
+    <img src="51.jpg"   style="width:100%">
+    <img src="52.jpg"   style="width:100%">
+
+  </div>  
+  <div class="column">
+    <img src="13.jpg" style="width:100%">
+    <img src="14.jpg" style="width:100%">
+    <img src="15.jpg" style="width:100%">
+    <img src="16.jpg" style="width:100%">
+    <img src="17.jpg" style="width:100%">
+    <img src="18.jpg" style="width:100%">
+    <img src="19.jpg" style="width:100%">
+    <img src="53.jpg"   style="width:100%">
+    <img src="54.jpg"   style="width:100%">
+    <img src="55.jpg"   style="width:100%">
+    <img src="56.jpg"   style="width:100%">
+    <img src="57.jpg"   style="width:100%">
+    <img src="58.jpg"   style="width:100%">
+    <img src="59.jpg"   style="width:100%">
+    <img src="60.jpg"   style="width:100%">
+    <img src="61.jpg"   style="width:100%">
+    <img src="62.jpg"   style="width:100%">
+    <img src="63.jpg"   style="width:100%">
+    <img src="64.jpg"   style="width:100%">
+    <img src="65.jpg"   style="width:100%">
+
+  </div>
+  <div class="column">
+    <img src="20.jpg" style="width:100%">
+    <img src="21.jpg" style="width:100%">
+    <img src="22.jpg" style="width:100%">
+    <img src="23.jpg" style="width:100%">
+    <img src="24.jpg" style="width:100%">
+    <img src="25.jpg" style="width:100%">
+    <img src="66.jpg"   style="width:100%">
+    <img src="67.jpg"   style="width:100%">
+    <img src="68.jpg"   style="width:100%">
+    <img src="69.jpg"   style="width:100%">
+    <img src="70.jpg"   style="width:100%">
+    <img src="71.jpg"   style="width:100%">
+    <img src="72.jpg"   style="width:100%">
+    <img src="73.jpg"   style="width:100%">
+    <img src="74.jpg"   style="width:100%">
+    <img src="75.jpg"   style="width:100%">
+    <img src="76.jpg"   style="width:100%">
+    <img src="77.jpg"   style="width:100%">
+    <img src="78.jpg"   style="width:100%">
+    <img src="79.jpg"   style="width:100%">
+  </div>
+</div>
+
+              
+<script>
+  // Get the elements with class="column"
+  var elements = document.getElementsByClassName("column");
+  
+  // Declare a loop variable
+  var i;
+  
+  // Full-width images
+  function one() {
+      for (i = 0; i < elements.length; i++) {
+      elements[i].style.msFlex = "100%";  // IE10
+      elements[i].style.flex = "100%";
+    }
+  }
+  
+  // Two images side by side
+  function two() {
+    for (i = 0; i < elements.length; i++) {
+      elements[i].style.msFlex = "50%";  // IE10
+      elements[i].style.flex = "50%";
+    }
+  }
+  
+  // Four images side by side
+  function four() {
+    for (i = 0; i < elements.length; i++) {
+      elements[i].style.msFlex = "25%";  // IE10
+      elements[i].style.flex = "25%";
+    }
+  }
+  
+  // Add active class to the current button (highlight it)
+  var header = document.getElementById("myHeader");
+  var btns = header.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+  </script>
+
+
+<style>
+    img {
+      border: 1px solid #000000;
+      border-radius: 7%;
+      padding:2px;
+      width: 125px;
+    }
+    
+    img:hover {
+      box-shadow: 0 0 3px 3px rgba(5, 1, 1, 0.5);
+      
+    }
+    
+    
+    </style>
+</body>
+</html>
